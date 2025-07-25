@@ -148,7 +148,7 @@
                         </div>
                         @empty
                         <div class="col-12">
-                            <p class="col-center">Belum ada event yang akan datang.</p>
+                            <p class="col-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Belum ada event yang akan datang.</p>
                         </div>
                         @endforelse
                     </div>
@@ -186,7 +186,7 @@
                         </div>
                         @empty
                         <div class="col-12">
-                            <p class="col-center">Belum ada event yang akan datang.</p>
+                            <p class="col-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Belum ada event yang akan datang.</p>
                         </div>
                         @endforelse
                     </div>
