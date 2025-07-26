@@ -7,6 +7,9 @@
     "routes": [
         { "src": "/build/(.*)", "dest": "/public/build/$1" },
         { "src": "/css/(.*)", "dest": "/public/css/$1" },
+        { "src": "/img/(.*)", "dest": "/public/img/$1" },
+        { "src": "/storage/(.*)", "dest": "/public/storage/$1" },
+        { "src": "/js/(.*)", "dest": "/public/js/$1" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
@@ -15,7 +18,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://yourproductionurl.com",
+        "APP_URL": "https://davina-portofolio-gamma.vercel.app",
         "APP_KEY": "base64:MjGN08G4plku/F3+5YeboxY8Ti7nWmKYajuEDq6lN4E=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
